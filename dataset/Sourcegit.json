@@ -1,0 +1,22 @@
+{
+	"name": "Sourcegit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Kajariba-DataEng/Data-Engineering-Journey/refs/heads/main/emp_sal_CSV.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
