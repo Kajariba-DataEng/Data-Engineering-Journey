@@ -1,0 +1,15 @@
+{
+	"name": "adf-kajari",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0330a8d5-b41e-48e4-af4b-ad85963dd9e8",
+		"tenantId": "defa686f-d58d-4de1-8a0e-35ad900f47db"
+	}
+}

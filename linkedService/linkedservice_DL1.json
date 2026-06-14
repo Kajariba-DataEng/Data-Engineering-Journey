@@ -1,0 +1,12 @@
+{
+	"name": "linkedservice_DL1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://storageadfkajari.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc3QkZFQTE1LUJFQTUtNDlGNy1COUU2LUM5RDBFRUM2MEVBQ19hYWQ4MDgwNi1mYmVjLTRjOTMtODE2ZC1mMDNhNjJkNjllYzgiDQp9"
+		}
+	}
+}
