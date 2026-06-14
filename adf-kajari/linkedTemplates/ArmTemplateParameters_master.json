@@ -8,6 +8,9 @@
 		"linkedservice_DL1_accountKey": {
 			"value": ""
 		},
+		"linked_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
 		"linkedservice_DL1_properties_typeProperties_url": {
 			"value": "https://storageadfkajari.dfs.core.windows.net/"
 		},

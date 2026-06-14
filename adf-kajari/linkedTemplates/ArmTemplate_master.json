@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'linkedservice_DL1'"
 		},
+		"linked_git_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"linkedservice_DL1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://storageadfkajari.dfs.core.windows.net/"
@@ -44,6 +48,9 @@
 					},
 					"linkedservice_DL1_accountKey": {
 						"value": "[parameters('linkedservice_DL1_accountKey')]"
+					},
+					"linked_git_properties_typeProperties_url": {
+						"value": "[parameters('linked_git_properties_typeProperties_url')]"
 					},
 					"linkedservice_DL1_properties_typeProperties_url": {
 						"value": "[parameters('linkedservice_DL1_properties_typeProperties_url')]"
